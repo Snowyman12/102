@@ -22,8 +22,8 @@
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li><a  style="color: Red" href="{% url 'index' %}">Home</a></li>
-          <li><a  style="color: Yellow " href="{% url 'random' %}">Fast Car</a>
-          <li><a  style="color: Blue" class="active" href="{% url 'many' %}">Some information</a>
+          <li><a  style="color: Yellow " href="{% url 'random' %}"> Car</a>
+          <li><a  style="color: Blue" class="active" href="{% url 'many' %}">list</a>
           <li><a  style="color: Orange" href="https://github.com/Snowyman12/102.git">Github</a></li>
           <li><a style="color: Purple" href="https://autonews.autoua.net/" >AutoNews Ukraine</a></li>
         </ul>
@@ -31,9 +31,8 @@
     </header>
   </div>
 <div style="display:inline;text-align:center;align-content:center;" class="form-group">
-   <h1 align="center" style="color:blue">Приветствую вас на сайте</h1> 
-   <h1 align="center" style="color:green">Етот сайт создан с помощью django</h1>
-   <p><img  src="https://auto.vercity.ru/img/magazine/2019/05/24/1558685463.jpg"></p>
+    <li><a  style="color: Yellow " href="{% url 'random' %}"> Car</a>
+    
 </div>
     <div id="quote_container" class="container text-center">
     {% block content %}
